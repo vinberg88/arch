@@ -136,6 +136,8 @@ Open this file via nano for ARCH LINUX and change text.
 
 Paste in terminal: nano /etc/pacman.conf 
 
+Paste in terminal - download ARCH from page: sudo nano /etc/pacman.conf 
+
 # Misc options
 #UseSyslog
 Color
