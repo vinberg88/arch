@@ -6,7 +6,6 @@
 
 <h1 align="center">Arch Linux for WSL</h1>
 
-<p align="center">
 Arch Linux, a lightweight and flexible Linux® distribution
 that tries to Keep It Simple. Arch Linux is an independently 
 developed, x86-64 general-purpose GNU/Linux distribution that strives
@@ -17,8 +16,7 @@ Arch Linux uses a "rolling release" system which allows one-time
 installation and perpetual software upgrades. It is not generally
 necessary to reinstall or upgrade your Arch Linux system from one
 "version" to the next. By issuing one command, an Arch system is
-kept up-to-date and on the bleeding edge. . 
-</p>
+kept up-to-date and on the bleeding edge.
 
 <p align="center">
   <img alt="Arch Linux" src="https://img.shields.io/badge/Arch_Linux-Rolling_Release-1793D1?logo=archlinux&logoColor=white">
