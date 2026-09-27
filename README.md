@@ -90,7 +90,8 @@ Each desktop section can contain a screenshot, a short description, the required
 
 [Arch KDE6 2026 SETUP](https://github.com/vinberg88/arch/blob/main/Arch-KDE6-2026.txt)
 
-Video via YOUTUBE is Comming - Setup take time =)
+[Video via YOUTUBE](https://www.youtube.com/watch?v=xWp491hIRBA)
+
 
 KDE Plasma 6 can run as a complete **X11 desktop on X410** while keeping WSLg available for audio.
 
