@@ -310,6 +310,14 @@ sudo pacman -Syu
 
 ---
 
+<p align="center">
+  <a href="https://github.com/vinberg88">
+<img width="800" height="300" alt="arch-setup-wsl-laptop" src="https://github.com/user-attachments/assets/54abf475-a8a4-42c4-8f20-e766551d3520" />
+  </a>
+</p>
+
+---
+
 # Set the default WSL user
 
 Modern WSL releases can set the default user directly from Windows.
