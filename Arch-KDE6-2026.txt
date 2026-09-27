@@ -314,8 +314,6 @@ paru -S xorg-xinit xorg-xrandr xorg-xfontsel xorg-xlsfonts xorg-xkill xorg-xinpu
 
 Time To install KDE plasma 6 for ARCH Linux.
 
-cargo install catppuccin-whiskers
-
 paru -S astyle clazy cmake cppcheck heaptrack lldb-mi meson ninja npm kvantum-theme-materia dbus
 
 paru -S plasma-meta kde-applications-meta
