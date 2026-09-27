@@ -3,7 +3,7 @@ ARCH and KDE 6 - How to install KDE 6 via ARCH LINUX - X410 - Windows 11 - WSL -
 Find desktops for WSL and install for ARCH Linux: https://github.com/vinberg88/arch
 
 How to install Plasma KDE 6 via Arch Linux - WSL - TEXT VIA GITHUB
-Comming SONE
+https://github.com/vinberg88/arch/blob/main/Arch-KDE6-2026.txt
 
 How to install Plasma KDE 6 via Arch Linux - WSL - Movie via YOUTUBE
 Comming SONE
