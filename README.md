@@ -20,6 +20,14 @@ necessary to reinstall or upgrade your Arch Linux system from one
 "version" to the next. By issuing one command, an Arch system is
 kept up-to-date and on the bleeding edge.
 
+
+We will use paru for setup - fast and better then yay i think =)
+<p align="center">
+  <a href="https://github.com/vinberg88">
+    <img width="731" height="273" alt="paru" src="https://github.com/user-attachments/assets/9ffc9eb5-436f-4853-a6c1-423dc3d5a728" />
+  </a>
+</p>
+
 <p align="center">
   <img alt="Arch Linux" src="https://img.shields.io/badge/Arch_Linux-Rolling_Release-1793D1?logo=archlinux&logoColor=white">
   <img alt="WSL 2" src="https://img.shields.io/badge/WSL-2-0078D4?logo=windows11&logoColor=white">
