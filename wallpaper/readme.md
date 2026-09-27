@@ -4,7 +4,7 @@ About Arch - https://github.com/vinberg88/arch
 
 <p align="center">
   <a href="https://github.com/vinberg88/arch/releases">
-<img width="700" height="300" alt="arch-wsl-head" src="https://github.com/user-attachments/assets/4ca5a518-d0f8-43f1-9fc9-e1da9f73bd7a" />
+<img width="800" height="300" alt="440579-Linux-Arch-Linux-Archlinux-minimalism-operating-system" src="https://github.com/user-attachments/assets/524282ad-fc6b-40fe-b3d1-3509262c6638" />
   </a>
 </p>
 
