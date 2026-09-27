@@ -264,11 +264,11 @@ paru -S google-chrome gnome-keyring
 
 --------------------------
 
-Install hyfetch and fastfetch
+Install hyfetch and fastfetch or screenfetch
 
-paru -S hyfetch fastfetch chafa ddcutil imagemagick libvdpau lua ocl-icd quickjs-ng nvidia-utils opencl-driver
+paru -S hyfetch fastfetch screenfetch chafa ddcutil imagemagick libvdpau lua ocl-icd quickjs-ng nvidia-utils opencl-driver
 
-To test hyfetch type hyfetch in terminal: fastfetch
+To test hyfetch type hyfetch in terminal or screenfetch or fastfetch: fastfetch
 
 
                    -`                     
@@ -319,6 +319,19 @@ paru -S astyle clazy cmake cppcheck heaptrack lldb-mi meson ninja npm kvantum-th
 paru -S plasma-meta kde-applications-meta
 
 paru -S plasma-applets-weather-widget-3 kgamma ant-dracula-gtk-theme
+
+------------------------------------------------------------
+
+nord.png
+
+
+Install nord theme for KDE 6
+
+npm install --save nord
+
+paru -S yarn
+
+yarn add nord
 
 ------------------------------------------------------------
 
