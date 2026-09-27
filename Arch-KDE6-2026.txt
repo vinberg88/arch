@@ -86,7 +86,7 @@ Paste this in terminal and update system - ARCH OS 2026
 
 pacman -Syu
 
-If installd from Blue Icon download use: sudo pacman -Syu
+If installd from Blue Icon use: sudo pacman -Syu
 
 ------------------------------------------------------------
 
@@ -126,9 +126,7 @@ Now open this file and add user FOR ARCH LINUX.
 
 JUMP OVER IF YOU INSTALLD VIA ARCH PAGE - BLUE ICON.
 
-
 nano /etc/wsl.conf
-
 
 [user]
 default=adolf
@@ -137,7 +135,7 @@ default=adolf
 
 Open this file via nano for ARCH LINUX and change text. 
 
-Paste in terminal: nano /etc/pacman.conf 
+Paste in terminal if you install via Powershell: nano /etc/pacman.conf 
 
 Paste in terminal - Blue Icon installation: sudo nano /etc/pacman.conf 
 
@@ -180,7 +178,7 @@ CD out from yay dir: cd
 
 ---------------------------------
 
-NEXT install PARU - THIS IS FASTEST WAY TO INSTALL PARU FOR ARCH
+NEXT install PARU - THIS IS FASTEST WAY TO INSTALL PARU FOR ARCH 2026
 
 Install this for PARU: sudo pacman -S --needed git base-devel devtools java-environment ruby btrfs-progs nvchecker
 
@@ -252,7 +250,7 @@ paru -S libreoffice
 
 Visual Studio Code from microsoft - 2026
 
-paru -S  code 
+paru -S code 
 
 --------------------------
 
@@ -342,7 +340,6 @@ or install Luv
 
 git clone https://github.com/Nitrux/luv-icon-theme.git
 cd luv-icon-theme
-
 sudo cp -r Luv /usr/share/icons/
 sudo cp -r Wallpapers/* /usr/share/wallpapers/
 
