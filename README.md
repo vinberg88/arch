@@ -138,9 +138,25 @@ Before installing Arch Linux, make sure you have:
 - Windows 11 or a supported Windows 10 release
 - Hardware virtualization enabled in UEFI/BIOS
 - The current Microsoft Store version of WSL
-- WSL 2 enabled
+- WSL 2 enabledhttps://github.com/vinberg88/arch/blob/main/README.md
 - Internet access
 - Windows Terminal recommended
+
+---
+
+*Next desktop will be GNOME 50..
+
+https://github.com/user-attachments/assets/6d3d506e-f05d-40aa-8f8b-c536f827bbed
+
+[Arch GNOME 2026 SETUP - this will take some time to fix](https://github.com/vinberg88)
+
+<p align="center">
+<a href="https://github.com/vinberg88">
+<img width="599" height="347" alt="gnomedesktop" src="https://github.com/user-attachments/assets/6d3d506e-f05d-40aa-8f8b-c536f827bbed" />
+ </a>
+</p>
+
+---
 
 Check your WSL installation from **PowerShell**:
 
