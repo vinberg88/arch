@@ -1,15 +1,12 @@
 ARCH and KDE 6 - How to install KDE 6 via ARCH LINUX - X410 - Windows 11 - WSL - YouTube - 2026
 
-Find desktops for WSL and install for ARCH Linux: https://github.com/vinberg88/arch
-
 How to install Plasma KDE 6 via Arch Linux - WSL - TEXT VIA GITHUB
 https://github.com/vinberg88/arch/blob/main/Arch-KDE6-2026.txt
 
 How to install Plasma KDE 6 via Arch Linux - WSL - Movie via YOUTUBE
 Comming SONE
 
-ARCH Linux for WSL - you will find it here for WSL or go to Microsoft Store.
-https://apps.microsoft.com/detail/9mznmnksm73x?hl=sv-SE&gl=US
+ARCH Linux for WSL - easy setup - https://github.com/vinberg88/arch/releases
 
 Install ARCH via Powershell: wsl --list --online 
 And next step: wsl --install archlinux --name ARCH
@@ -52,7 +49,10 @@ web; keep in touch with colleagues, friends and family; manage your
 files, enjoy music and videos; and get creative and productive at work.
 Do it all in a beautiful environment that adapts to your needs, and
 with the safety, privacy-protection and peace of mind that the best
-Free Open Source Software has to offer.
+Free Open Source Software has to offer. Plasma is KDE's flagship
+product, offering the most customizable desktop Environment
+available. The KDE community has the driving goal of making it
+simple by default, and powerful when needed.
 
 About Arch - https://archlinux.org
 
@@ -68,7 +68,7 @@ necessary to reinstall or upgrade your Arch Linux system from one
 "version" to the next. By issuing one command, an Arch system is
 kept up-to-date and on the bleeding edge. 
 
-You will find more stuff here for WSL: https://github.com/vinberg88
+You will find more stuff for WSL here: https://github.com/vinberg88 or https://vinberg88.github.io
 
 -------------------------
 
@@ -76,19 +76,13 @@ Lets install ARCH and KDE 6 via POWERSHELL - WSL - 2026
 
 Install ARCH via POWERSHELL: wsl --install archlinux --name ARCH
 
-If you want you can download ARCH from here and jump over some steps in installation for WSL. Setup User and Password via terminal.
-
-Download ARCH here and press the BLue Icon - EASY - https://github.com/vinberg88/arch/releases/
-
 -------------------------
 
 Paste this in terminal and update system - ARCH OS 2026
 
 pacman -Syu
 
-If you downloaded arch from this page use
-
-sudo pacman -Syu
+If installd from Blue Icon download use: sudo pacman -Syu
 
 ------------------------------------------------------------
 
@@ -96,13 +90,15 @@ Install sudo and nano for ARCH LINUX
 
 pacman -S sudo nano
 
-If you downloaded arch from this page use
+If installd from Blue Icon download use: sudo pacman -Syu
 
 sudo pacman -S sudo nano
 
 ------------------------------------------------------------
 
 SETUP USER FOR ARCH LINUX. CHANGE ADOLF TO YOUR USER.
+
+JUMP OVER IF YOU INSTALLD VIA ARCH PAGE - BLUE ICON.
 
 passwd
 useradd -m -g users -G wheel -s /bin/bash adolf
@@ -112,16 +108,19 @@ passwd adolf
 
 Add this to visudo file in ARCH. CHANGE ADOLF TO YOUR USER.
 
+JUMP OVER IF YOU INSTALLD VIA ARCH PAGE - BLUE ICON.
+
 sudo EDITOR=nano visudo
 
-LIKE THIS....
+LIKE THIS IN TOP OF NANO....
 
 adolf ALL=(ALL:ALL) ALL
-root ALL=(ALL:ALL) ALL
 
 ------------------------------------------------------------
 
 Now open this file and add user FOR ARCH LINUX.
+
+JUMP OVER IF YOU INSTALLD VIA ARCH PAGE - BLUE ICON.
 
 
 nano /etc/wsl.conf
@@ -132,11 +131,11 @@ default=adolf
 
 ------------------------------------------------------------
 
-Open this file via nano for ARCH LINUX and change text.
+Open this file via nano for ARCH LINUX and change text. 
 
 Paste in terminal: nano /etc/pacman.conf 
 
-Paste in terminal - download ARCH from page: sudo nano /etc/pacman.conf 
+Paste in terminal - Blue Icon installation: sudo nano /etc/pacman.conf 
 
 # Misc options
 #UseSyslog
@@ -147,10 +146,12 @@ ILoveCandy
 #CheckSpace
 VerbosePkgLists
 
-ADD THIS TO IN BOTTOM via FILE.
+ADD THIS TO IN BOTTOM via FILE in nano.
 
 [multilib]
 Include = /etc/pacman.d/mirrorlist
+
+Paste in terminal if you download ARCH from this page: sudo nano /etc/pacman.conf
 
 ------------------------------------------------------------
 
@@ -161,11 +162,8 @@ REBOOT ARCH - REBOOT ARCH - REBOOT ARCH - REBOOT ARCH
 LOGIN IN AS NORMAL USER AND UPADTE REPOS FOR ARCH.
 
 sudo pacman-key --init
-
 sudo pacman-key --populate archlinux
-
 sudo pacman -Syu
-
 sudo pacman -S wget curl git
 
 ---------------------------------
@@ -178,31 +176,15 @@ CD out from yay dir: cd
 
 ---------------------------------
 
-NEXT install PARU - THIS WILL TAKE SOME TIME TO INSTALL - 4-5 min just wait.
+NEXT install PARU - THIS IS FASTEST WAY TO INSTALL PARU FOR ARCH
 
-sudo pacman -S --needed git base-devel devtools java-environment ruby btrfs-progs nvchecker
+Install this for PARU: sudo pacman -S --needed git base-devel devtools java-environment ruby btrfs-progs nvchecker
 
-git clone https://aur.archlinux.org/paru.git
-cd paru
-cat PKGBUILD
-makepkg -si
-cd 
+Install this for PARU: sudo pacman -S pkgfile gzip wget curl sudo bash git zip
 
-or
+wget https://builds.garudalinux.org/repos/chaotic-aur/x86_64/paru-2.1.0-2.1-x86_64.pkg.tar.zst
 
-yay -S paru
-
----------------------------------
-
-Install PARU faster for ARCH - 2026 - Install time - target in 3m 46s - done - This will take some time.
-
-git clone https://github.com/ppkwebsites/yay-paru.git
-
-cd yay-paru
-
-chmod +x yay-paru.sh
-
-./yay-paru.sh
+sudo pacman -U --noconfirm paru-2.1.0-2.1-x86_64.pkg.tar.zst
 
 How to use PARU fast =)
 
@@ -214,9 +196,9 @@ Clean up unused AUR build files and caches: paru -Sc
 
 ------------------------------------------------------------
 
-Test Paru so it works.
+Test Paru so it work after install.
 
-Copy and paste: paru
+Copy and paste in terminal - this will update arch linux: paru
 
 Install Spotify from Sweden - 2026
 
@@ -252,9 +234,21 @@ paru -S gimp npm pnpm cargo
 
 ------------------------------------------------------------
 
-Install blanket - gimp - LibreOffice - Code
+Install blanket so we have sound.
 
-paru -S blanket libreoffice code 
+paru -S blanket
+
+--------------------------
+
+Nice office for LIBREOFFICE and KDE 6
+
+paru -S libreoffice
+
+--------------------------
+
+Visual Studio Code from microsoft - 2026
+
+paru -S  code 
 
 --------------------------
 
@@ -264,11 +258,11 @@ paru -S google-chrome gnome-keyring
 
 --------------------------
 
-Install hyfetch and fastfetch or screenfetch
+Install hyfetch and fastfetch
 
 paru -S hyfetch fastfetch screenfetch chafa ddcutil imagemagick libvdpau lua ocl-icd quickjs-ng nvidia-utils opencl-driver
 
-To test hyfetch type hyfetch in terminal or screenfetch or fastfetch: fastfetch
+To test hyfetch type hyfetch in terminal: fastfetch or screenfetch or hyfetch
 
 
                    -`                     
@@ -335,9 +329,7 @@ yarn add nord
 or install Numix
 
 git clone https://github.com/varlesh/numix-kde-theme.git
- 
 cd numix-kde-theme
- 
 sudo make install
 
 ------------------------------------------------------------
@@ -345,7 +337,6 @@ sudo make install
 or install Luv
 
 git clone https://github.com/Nitrux/luv-icon-theme.git
-
 cd luv-icon-theme
 
 sudo cp -r Luv /usr/share/icons/
@@ -397,9 +388,9 @@ paru -S evince gnome-keyring java-runtime pstoedit coin-or-mp rhino java-environ
 
 Install some theme programs for ARCH
 
-paru -S qt5 qt6 gnome-shell papirus-icon-theme adwaita-icon-theme hicolor-icon-theme materia-gtk-theme pipewire alsa-utils pavucontrol deepin-terminal gtk-engine-murrine
+paru -S qt5 qt6 gnome-shell adwaita-icon-theme hicolor-icon-theme pipewire alsa-utils pavucontrol deepin-terminal
 
-paru -S materia-gtk-theme networkmanager-openvpn libdbus gtk3 gtk4 network kpackage cava qt6-websockets python-websockets gst-plugin-pipewire 
+paru -S networkmanager-openvpn libdbus network kpackage cava qt6-websockets python-websockets gst-plugin-pipewire 
 
 paru -S nemo gedit gnome-terminal tilix file-roller eog evince gparted htop nautilus dolphin power-profiles-daemon
 
