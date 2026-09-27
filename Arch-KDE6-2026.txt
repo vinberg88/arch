@@ -322,9 +322,6 @@ paru -S plasma-applets-weather-widget-3 kgamma ant-dracula-gtk-theme
 
 ------------------------------------------------------------
 
-nord.png
-
-
 Install nord theme for KDE 6
 
 npm install --save nord
