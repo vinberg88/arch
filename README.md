@@ -31,7 +31,7 @@ necessary to reinstall or upgrade your Arch Linux system from one
 kept up-to-date and on the bleeding edge.
 
 
-We will use paru for setup - fast and better then yay i think =)
+We will use paru for setup - fast and better then yay i think =) Look inside install files for gnome, kde and mate...
 
 <p align="center">
   <a href="https://github.com/vinberg88">
