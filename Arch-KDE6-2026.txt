@@ -298,7 +298,7 @@ Install sddm and other Tools for Arch
 
 PRESS YES IF ASKED IN TERMINAL.
 
-paru -S sddm sddm-sugar-candy-git wlogout wofi dunst papirus-icon-theme catppuccin-gtk-theme-mocha polkit-gnome wlsunset swayidle networkmanager
+paru -S sddm sddm-sugar-candy wlogout wofi dunst papirus-icon-theme catppuccin-gtk-theme-mocha polkit-gnome wlsunset swayidle networkmanager
 
 paru -S blueman brightnessctl swaylock-effects wofi-emoji wofi-calc wofi-wifi-menu playerctl grim slurp pipewire wireplumber xdg-desktop-portal-wlr
 
