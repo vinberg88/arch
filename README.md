@@ -695,6 +695,14 @@ wsl -d Arch-Restore
 
 ---
 
+<p align="center">
+  <a href="https://github.com/vinberg88">
+<img width="662" height="228" alt="wsl-arch linux" src="https://github.com/user-attachments/assets/af844751-1664-4616-b032-d349ffeaf962" />
+  </a>
+</p>
+
+---
+
 # Troubleshooting
 
 ## Arch starts as root
