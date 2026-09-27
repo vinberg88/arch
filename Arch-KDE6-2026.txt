@@ -212,6 +212,16 @@ Clean up unused AUR build files and caches: paru -Sc
 
 ------------------------------------------------------------
 
+Test Paru so it works.
+
+Copy and paste: paru
+
+Install Spotify from Sweden - 2026
+
+paru -S spotify
+
+------------------------------------------------------------
+
 Set local for ARCH LINUX and KDE desktop.
 
 sudo localectl set-locale LANG=en_US.UTF-8
