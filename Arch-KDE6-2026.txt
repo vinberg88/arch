@@ -192,7 +192,7 @@ yay -S paru
 
 ---------------------------------
 
-Install PARU faster for ARCH - 2026
+Install PARU faster for ARCH - 2026 - Install time - target in 3m 46s - done - This will take some time.
 
 git clone https://github.com/ppkwebsites/yay-paru.git
 
