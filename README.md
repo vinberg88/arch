@@ -144,7 +144,9 @@ Before installing Arch Linux, make sure you have:
 
 ---
 
-##Next desktop will be GNOME 50 ..
+## Next desktop will be GNOME 50. Mutter installation. Wayland...
+
+---
 
 [Arch GNOME 2026 SETUP - this will take some time to fix](https://github.com/vinberg88)
 
