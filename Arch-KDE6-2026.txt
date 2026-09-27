@@ -86,11 +86,19 @@ Paste this in terminal and update system - ARCH OS 2026
 
 pacman -Syu
 
+If you downloaded arch from this page use
+
+sudo pacman -Syu
+
 ------------------------------------------------------------
 
 Install sudo and nano for ARCH LINUX
 
 pacman -S sudo nano
+
+If you downloaded arch from this page use
+
+sudo pacman -S sudo nano
 
 ------------------------------------------------------------
 
@@ -177,6 +185,22 @@ cd paru
 cat PKGBUILD
 makepkg -si
 cd 
+
+or
+
+yay -S paru
+
+---------------------------------
+
+Install PARU faster for ARCH - 2026
+
+git clone https://github.com/ppkwebsites/yay-paru.git
+
+cd yay-paru
+
+chmod +x yay-paru.sh
+
+./yay-paru.sh
 
 How to use PARU fast =)
 
