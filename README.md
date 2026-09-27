@@ -7,7 +7,17 @@
 <h1 align="center">Arch Linux for WSL</h1>
 
 <p align="center">
-  A clean, modern guide for running official Arch Linux on Windows 11 with WSL 2.
+Arch Linux, a lightweight and flexible Linux® distribution
+that tries to Keep It Simple. Arch Linux is an independently 
+developed, x86-64 general-purpose GNU/Linux distribution that strives
+to provide the latest stable versions of most software by following
+a rolling-release model. The default installation is a minimal
+base system, configured by the user to only add what is purposely required.
+Arch Linux uses a "rolling release" system which allows one-time
+installation and perpetual software upgrades. It is not generally
+necessary to reinstall or upgrade your Arch Linux system from one
+"version" to the next. By issuing one command, an Arch system is
+kept up-to-date and on the bleeding edge. . 
 </p>
 
 <p align="center">
