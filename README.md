@@ -4,6 +4,8 @@
   </a>
 </p>
 
+---
+
 <h1 align="center">Arch Linux for WSL</h1>
 
 Arch Linux, a lightweight and flexible Linux® distribution
