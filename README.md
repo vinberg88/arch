@@ -69,6 +69,55 @@ Each desktop section can contain a screenshot, a short description, the required
 
 > **Desktop guides will be kept short on this main page.** Full installation instructions, scripts and troubleshooting can live in separate files so the README stays easy to navigate.
 
+## KDE Plasma 6 + X410
+
+KDE Plasma 6 can run as a complete **X11 desktop on X410** while keeping WSLg available for audio.
+
+First make sure the X11 session packages are installed:
+
+```bash
+paru -S plasma-x11-session kwin-x11
+```
+
+Then install the Arch X410 launcher directly from this repository:
+
+```bash
+wget -O install-kde6-x410-arch.sh \
+https://raw.githubusercontent.com/vinberg88/arch/main/install-kde6-x410-arch.sh
+
+chmod +x install-kde6-x410-arch.sh
+./install-kde6-x410-arch.sh
+```
+
+> **IMPORTANT:** Start X410 in Windows 11 before starting KDE.
+
+Check the setup:
+
+```bash
+kde6-x410 doctor
+```
+
+Start KDE Plasma 6:
+
+```bash
+kde6-x410 start
+```
+
+If Plasma is already half-started or looks broken:
+
+```bash
+kde6-x410 repair
+kde6-x410 start
+```
+
+Other useful commands:
+
+```bash
+kde6-x410 stop
+kde6-x410 restart
+kde6-x410 log
+```
+
 ---
 
 ## Requirements
