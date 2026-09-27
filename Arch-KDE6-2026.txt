@@ -322,13 +322,40 @@ paru -S plasma-applets-weather-widget-3 kgamma ant-dracula-gtk-theme
 
 ------------------------------------------------------------
 
-Install nord theme for KDE 6
+Install nordtheme for KDE 6
 
 npm install --save nord
 
 paru -S yarn
 
 yarn add nord
+
+------------------------------------------------------------
+
+or install Numix
+
+git clone https://github.com/varlesh/numix-kde-theme.git
+ 
+cd numix-kde-theme
+ 
+sudo make install
+
+------------------------------------------------------------
+
+or install Luv
+
+git clone https://github.com/Nitrux/luv-icon-theme.git
+
+cd luv-icon-theme
+
+sudo cp -r Luv /usr/share/icons/
+sudo cp -r Wallpapers/* /usr/share/wallpapers/
+
+------------------------------------------------------------
+
+or install Materia
+
+wget -qO- https://raw.githubusercontent.com/PapirusDevelopmentTeam/materia-kde/master/install.sh | sh
 
 ------------------------------------------------------------
 
