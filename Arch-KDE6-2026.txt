@@ -86,7 +86,7 @@ Paste this in terminal and update system - ARCH OS 2026
 
 pacman -Syu
 
-If installd from Blue Icon use: sudo pacman -Syu
+If installd from Blue Icon download use: sudo pacman -Syu
 
 ------------------------------------------------------------
 
