@@ -49,7 +49,7 @@ We will use paru for setup - fast and better then yay i think =)
 
 ## About Arch Linux
 
-[Arch Linux](https://archlinux.org/) is an independently developed, x86-64 GNU/Linux distribution focused on simplicity, modern software and user control.
+[Arch Linux](https://github.com/vinberg88/) is an independently developed, x86-64 GNU/Linux distribution focused on simplicity, modern software and user control.
 
 Arch uses a **rolling-release model**, which means there are no traditional major-version upgrades. Install it once, keep the system updated with Pacman, and you continue receiving current packages.
 
