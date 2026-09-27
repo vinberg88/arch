@@ -419,6 +419,14 @@ systemctl is-system-running
 
 ---
 
+<p align="center">
+  <a href="https://github.com/vinberg88/arch/blob/main/Arch-KDE6-2026.txt">
+<img width="800" height="250" alt="nord" src="https://github.com/user-attachments/assets/b9b31aef-517d-46aa-bd89-cb2c7b3671ee" />
+  </a>
+</p>
+
+---
+
 # Locale
 
 See available locales:
