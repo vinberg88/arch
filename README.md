@@ -6,7 +6,7 @@
 
 ---
 
-Download ARCH for WSL here - https://github.com/vinberg88/arch/releases/
+Download ARCH for WSL here - Setup User and Password from install - https://github.com/vinberg88/arch/releases/
 
 <p align="center">
   <a href="https://github.com/vinberg88/arch/releases">
