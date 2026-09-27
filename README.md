@@ -189,6 +189,14 @@ wsl --shutdown
 
 ---
 
+<p align="center">
+  <a href="https://github.com/vinberg88">
+<img width="712" height="274" alt="ubuntu-wsl-88" src="https://github.com/user-attachments/assets/2ee6c95f-32d7-43dd-be3e-04edf8bda7d8" />
+  </a>
+</p>
+
+---
+
 # Quick installation
 
 ## 1. Check that Arch Linux is available
