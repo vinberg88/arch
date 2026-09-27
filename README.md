@@ -6,6 +6,16 @@
 
 ---
 
+Download ARCH for WSL here - https://github.com/vinberg88/arch/releases/
+
+<p align="center">
+  <a href="https://github.com/vinberg88/arch/releases">
+<img width="700" height="300" alt="arch-wsl-head" src="https://github.com/user-attachments/assets/4ca5a518-d0f8-43f1-9fc9-e1da9f73bd7a" />
+  </a>
+</p>
+
+---
+
 <h1 align="center">Arch Linux for WSL</h1>
 
 Arch Linux, a lightweight and flexible Linux® distribution
