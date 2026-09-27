@@ -4,7 +4,7 @@ How to install Plasma KDE 6 via Arch Linux - WSL - TEXT VIA GITHUB
 https://github.com/vinberg88/arch/blob/main/Arch-KDE6-2026.txt
 
 How to install Plasma KDE 6 via Arch Linux - WSL - Movie via YOUTUBE
-Comming SONE
+https://www.youtube.com/watch?v=xWp491hIRBA
 
 ARCH Linux for WSL - easy setup - https://github.com/vinberg88/arch/releases
 
