@@ -164,7 +164,7 @@ CD out from yay dir: cd
 
 ---------------------------------
 
-NEXT install PARU
+NEXT install PARU - THIS WILL TAKE SOME TIME TO INSTALL - 4-5 min just wait.
 
 sudo pacman -S --needed git base-devel devtools java-environment ruby btrfs-progs nvchecker
 
