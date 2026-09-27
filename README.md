@@ -22,6 +22,7 @@ kept up-to-date and on the bleeding edge.
 
 
 We will use paru for setup - fast and better then yay i think =)
+
 <p align="center">
   <a href="https://github.com/vinberg88">
     <img width="731" height="273" alt="paru" src="https://github.com/user-attachments/assets/9ffc9eb5-436f-4853-a6c1-423dc3d5a728" />
@@ -78,6 +79,8 @@ Each desktop section can contain a screenshot, a short description, the required
 </p>
 
 [Arch KDE6 2026 SETUP](https://github.com/vinberg88/arch/blob/main/Arch-KDE6-2026.txt)
+
+Video via YOUTUBE is Comming - Setup take time =)
 
 KDE Plasma 6 can run as a complete **X11 desktop on X410** while keeping WSLg available for audio.
 
