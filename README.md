@@ -760,3 +760,9 @@ For normal Arch package management and configuration, the ArchWiki remains the p
   <b>Arch Linux + WSL 2 + Windows 11</b><br>
   Keep it simple. Keep it rolling.
 </p>
+
+<p align="center">
+  <a href="https://github.com/vinberg88">
+    <img width="1195" height="238" alt="arch-bottom" src="https://github.com/user-attachments/assets/eceb0d9e-09b5-4795-b8dc-2f919de45574" />
+  </a>
+</p>
