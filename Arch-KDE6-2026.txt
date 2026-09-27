@@ -212,6 +212,8 @@ Clean up unused AUR build files and caches: paru -Sc
 
 ------------------------------------------------------------
 
+
+
 Test Paru so it works.
 
 Copy and paste: paru
