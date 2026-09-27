@@ -100,7 +100,7 @@ chmod +x install-kde6-x410-arch.sh
 ./install-kde6-x410-arch.sh
 ```
 
-> **IMPORTANT:** Start X410 in Windows 11 before starting KDE.
+> **IMPORTANT:** Start X410 in Windows 11 before starting KDE 6 via terminal for ARCH.
 
 Check the setup:
 
@@ -144,9 +144,7 @@ Before installing Arch Linux, make sure you have:
 
 ---
 
-*Next desktop will be GNOME 50..
-
-https://github.com/user-attachments/assets/6d3d506e-f05d-40aa-8f8b-c536f827bbed
+##Next desktop will be GNOME 50 ..
 
 [Arch GNOME 2026 SETUP - this will take some time to fix](https://github.com/vinberg88)
 
