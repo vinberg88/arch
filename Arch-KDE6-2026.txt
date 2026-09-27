@@ -76,6 +76,10 @@ Lets install ARCH and KDE 6 via POWERSHELL - WSL - 2026
 
 Install ARCH via POWERSHELL: wsl --install archlinux --name ARCH
 
+If you want you can download ARCH from here and jump over some steps in installation for WSL. Setup User and Password via terminal.
+
+Download ARCH here and press the BLue Icon - EASY - https://github.com/vinberg88/arch/releases/
+
 -------------------------
 
 Paste this in terminal and update system - ARCH OS 2026
