@@ -71,6 +71,14 @@ Each desktop section can contain a screenshot, a short description, the required
 
 ## KDE Plasma 6 + X410
 
+<p align="center">
+  <a href="https://github.com/vinberg88/arch/blob/main/Arch-KDE6-2026.txt">
+<img width="1920" height="1080" alt="Arch-KDE6-2026" src="https://github.com/user-attachments/assets/a7fe5ee9-eef1-48ec-8fb7-c5bd4fcc86c0" />
+  </a>
+</p>
+
+[Arch KDE6 2026 SETUP](https://github.com/vinberg88/arch/blob/main/Arch-KDE6-2026.txt)
+
 KDE Plasma 6 can run as a complete **X11 desktop on X410** while keeping WSLg available for audio.
 
 First make sure the X11 session packages are installed:
