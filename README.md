@@ -32,6 +32,27 @@ Arch Linux now provides an **official WSL image**, making it much easier to run 
 
 ---
 
+# Desktop environments on Arch WSL
+
+This repository is not only about installing Arch Linux itself — the main goal is also to show how different **Linux desktop environments can run under WSL 2 on Windows 11**.
+
+Planned and tested desktop guides can include:
+
+| Desktop | Typical session | WSL display |
+|---|---|---|
+| KDE Plasma 6 | X11 / Wayland depending on setup | X410 / WSLg |
+| GNOME | Wayland | WSLg / nested session |
+| XFCE | X11 | X410 |
+| MATE | X11 | X410 |
+| Cinnamon | X11 | X410 |
+| LXQt | X11 | X410 |
+
+Each desktop section can contain a screenshot, a short description, the required packages, the start command and a link to a separate full installation guide.
+
+> **Desktop guides will be kept short on this main page.** Full installation instructions, scripts and troubleshooting can live in separate files so the README stays easy to navigate.
+
+---
+
 ## Requirements
 
 Before installing Arch Linux, make sure you have:
@@ -479,27 +500,6 @@ sudo pacman -S mesa vulkan-icd-loader
 ```
 
 WSLg also provides Linux audio integration.
-
----
-
-# Full desktop environments
-
-Arch Linux can also be used with complete desktop environments under WSL.
-
-Examples include:
-
-| Desktop | Typical session |
-|---|---|
-| KDE Plasma 6 | X11 / Wayland depending on setup |
-| GNOME | Wayland |
-| XFCE | X11 |
-| MATE | X11 |
-| Cinnamon | X11 |
-| LXQt | X11 |
-
-A full desktop session is different from launching individual applications with WSLg. Depending on the desktop, you may need additional session configuration or an external Windows X server such as **X410**.
-
-This repository can be expanded with tested desktop-specific installation and launcher guides.
 
 ---
 
