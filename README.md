@@ -235,7 +235,7 @@ You can also launch Arch Linux from the Windows Start menu or Windows Terminal.
 
 <p align="center">
   <a href="https://github.com/vinberg88/arch/blob/main/Arch-KDE6-2026.txt">
-<img width="700" height="260" alt="ubuntu-wsl-88" src="https://www.xhamster.nu/swe/spotify.png" />
+<img width="700" height="200" alt="ubuntu-wsl-88" src="https://www.xhamster.nu/swe/spotify.png" />
   </a>
 </p>
 
