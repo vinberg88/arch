@@ -239,6 +239,8 @@ You can also launch Arch Linux from the Windows Start menu or Windows Terminal.
   </a>
 </p>
 
+---
+
 # First boot
 
 The official Arch Linux WSL environment initially uses the **root** account.
