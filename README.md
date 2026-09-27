@@ -342,6 +342,17 @@ whoami
 id
 ```
 
+---
+
+
+<p align="center">
+  <a href="https://github.com/vinberg88">
+<img width="731" height="210" alt="arch-banner-for-arch" src="https://github.com/user-attachments/assets/8891b303-7fbe-4db5-9c79-67d43da88e64" />
+  </a>
+</p>
+
+---
+
 ### Alternative method: /etc/wsl.conf
 
 You can also configure the default user inside Arch Linux.
