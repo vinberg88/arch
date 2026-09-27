@@ -212,12 +212,6 @@ Clean up unused AUR build files and caches: paru -Sc
 
 ------------------------------------------------------------
 
-<p align="center">
-  <a href="https://github.com/vinberg88">
-<img width="700" height="260" alt="ubuntu-wsl-88" src="https://www.xhamster.nu/swe/spotify.png" />
-  </a>
-</p>
-
 Test Paru so it works.
 
 Copy and paste: paru
